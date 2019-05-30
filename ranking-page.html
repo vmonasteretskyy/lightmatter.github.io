@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dappdetect</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <img class="main-top-bg rat-page" src="img/blue-top-bg1.png" alt="background">
+    <!-- header -->
+    <header>
+        <div class="header__top-line">
+            <div class="container">
+                <div class="between-align">
+                    <span>2,142 Total Dapps</span>
+                    <span>3,265,143 Txs 24h</span>
+                    <span>149,529 Users 24h</span>
+                    <span>$34,486,025 Vol 24h</span>
+                    <span>7,902 Smart Contracts</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-7 col-6">
+                        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="col-lg-8 col-md-5 col-5">
+                        <div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="header__search">
+                                    <input type="text" placeholder="SEARCH">
+                                </div>
+                                <div class="header__menu">
+                                    <ul>
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">RANKINGS</a></li>
+                                        <li class="menu-eth"><a href="#">ETH DAPPS</a></li>
+                                        <li class="menu-eos"><a href="#">EOS DAPPS</a></li>
+                                        <li class="menu-tron"><a href="#">TRON DAPPS</a></li>
+                                        <li><a href="#">CHARTS</a></li>
+                                    </ul>
+                                    <a href="#" class="header-subbmit"><span>Sumbit dapp</span></a>
+                                </div>
+                                <!-- <div class="header-language">
+                                <span><img src="img/flag.png" alt="flag"> EN</span>
+                                <ul class="lang-list list-nostyle">
+                                    <li><a href="#"><span><img src="img/flag.png" alt="flag"> EN</span></a></li>
+                                    <li><a href="#"><span><img src="img/flag.png" alt="flag"> EN</span></a></li>
+                                    <li><a href="#"><span><img src="img/flag.png" alt="flag"> EN</span></a></li>
+                                </ul>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <a href="#" class="header-subbmit"><span>Sumbit dapp</span></a>
+                    </div>
+                    <div class="burger-icon">
+                        <img class="show-menu" src="img/burger-icon.png" alt="menu icon">
+                        <img class="close-menu" src="img/close-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- content -->
+    <main>
+        <div class="container">
+            <div class="main-page-titles">
+                <h1 class="text-center">Dapp Rankings</h1>
+                <div class="ranking-sort">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p class="ranking__title">Type</p>
+                            <div class="type-filter">
+                                <input type="radio" id="all-dapps" name="type-filter">
+                                <label for="all-dapps">All dapps</label>
+                                <input type="radio" id="new-dapps" name="type-filter">
+                                <label class="mr0" for="new-dapps">new dapps</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="center-protocolblock">
+                                <p class="ranking__title">Protocol</p>
+                                <div class="protocol-filter">
+                                    <input type="radio" id="all" name="protocol">
+                                    <label for="all">All</label>
+                                    <input type="radio" id="eth" name="protocol">
+                                    <label for="eth">eth</label>
+                                    <input type="radio" id="eos" name="protocol">
+                                    <label for="eos">eos</label>
+                                    <input type="radio" id="tron" name="protocol">
+                                    <label for="tron">tron</label>
+                                    <input type="radio" id="iost" name="protocol">
+                                    <label class="mr0" for="iost">iost</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <p class="ranking__title">Category</p>
+                            <div class="style-inp">
+                                <select>
+                                    <option value="0">all categories</option>
+                                    <option value="1">category 1</option>
+                                    <option value="2">category 2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-dapps-table">
+                <div class="dapps-nav">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <a href="#" class="prev">previous</a>
+                        </div>
+                        <div class="col-lg-8 col-md-6 col-12 text-center">
+                            <ul class="list-nostyle">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><span>...</span></li>
+                                <li><a href="#">50</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6 text-right">
+                            <a href="#" class="next">next</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-scroll">
+                    <table class="dapps-table ranking-page">
+                        <thead>
+                            <tr>
+                                <th class="number">#</th>
+                                <th class="name">Name</th>
+                                <th class="category">Category</th>
+                                <th class="protocol">Protocol</th>
+                                <th class="balance">Balance</th>
+                                <th class="users">Users 24h</th>
+                                <th class="volume">Volume 24h</th>
+                                <th class="volume d7">Volume 7h</th>
+                                <th class="txs">Txs24h</th>
+                                <th class="txs d7">Txs 7d</th>
+                                <th class="activity">Activity 7d</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="number">
+                                    <div class="trig blue"><span>new</span></div> <span
+                                        class="table-phone-show">#</span>1
+                                </td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic1.png" alt="logo dapp">
+                                            PRA CandyBox</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category orange">Other</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span>+14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number">
+                                    <div class="trig violet"><span>hot</span></div><span
+                                        class="table-phone-show">#</span>2
+                                </td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic2.png" alt="logo dapp">
+                                            ENBank</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category orange">Other</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span>+14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number">
+                                    <div class="trig orange"><span>pinned</span></div><span
+                                        class="table-phone-show">#</span>3
+                                </td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>4</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>5</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>6</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>7</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>8</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>9</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>10</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>11</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>12</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>13</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>14</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>15</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>16</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>17</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>18</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>19</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>20</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>21</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>22</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>23</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>24</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>25</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>26</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>27</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>28</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>29</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>30</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>31</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>32</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>33</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>34</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>35</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>36</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>37</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>38</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>39</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>40</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>41</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>42</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>43</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>44</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>45</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>46</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>47</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>48</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>49</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                            <tr>
+                                <td class="number"><span class="table-phone-show">#</span>50</td>
+                                <td class="name">
+                                    <div>
+                                        <span><img src="img/pic3.png" alt="logo dapp">
+                                            EOS Knights</span>
+                                    </div>
+                                </td>
+                                <td class="category"><a href="#" class="table-category pink">Games</a></td>
+                                <td class="protocol"><span class="table-phone-show">Protocol</span>EOS</td>
+                                <td class="balance"><span class="table-phone-show">Balance</span>51.5k</td>
+                                <td class="users"><span class="table-phone-show">Users 24h</span>6.4k
+                                    <span class="red">-14.96%</span>
+                                </td>
+                                <td class="volume">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="volume d7">
+                                    <span class="table-phone-show">Volume 24h</span>
+                                    $0<br>
+                                    <span>0</span>
+                                </td>
+                                <td class="txs"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="txs d7"><span class="table-phone-show">Txs 24h</span>13.069k</td>
+                                <td class="activity"><span class="table-phone-show">Activity 7d</span><img
+                                        src="img/graph.png" alt="graph"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="dapps-nav">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-6">
+                                <a href="#" class="prev">previous</a>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-12 text-center">
+                                <ul class="list-nostyle">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><span>...</span></li>
+                                    <li><a href="#">50</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-right">
+                                <a href="#" class="next">next</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <!-- end content -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="subscribe-section">
+                <p class="title">Subscribe us</p>
+                <p class="descr">
+                    Follow our newsletter and <br>
+                    always stay updated.
+                </p>
+                <form action="#">
+                    <div class="form-field">
+                        <input type="text" placeholder="your email">
+                        <input type="submit" value="subscribe">
+                    </div>
+                </form>
+            </div>
+            <div class="foot-bott-sect">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="foot-left-sect">
+                            <a class="footer-logo" href="#"><img src="img/foot-logo.png" alt="logo"></a>
+                            <div class="footer-lists">
+                                <ul class="list-nostyle">
+                                    <li>Useful links</li>
+                                    <li><a href="#">Advertise</a></li>
+                                    <li><a href="#">Disclaimer</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                </ul>
+                                <ul class="list-nostyle">
+                                    <li></li>
+                                    <li><a href="#">Submit a dapp</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                                <ul class="list-nostyle">
+                                    <li>Social</li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Discord</a></li>
+                                    <li><a href="#">Telegram</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="foot-circle-section">
+                            <div class="circle-block">
+                                <div class="circle-text">
+                                    <p class="big-text">2,142</p>
+                                    <p class="small-text">dapps<br>tracked</p>
+                                </div>
+                            </div>
+                            <div class="circle-block">
+                                <div class="circle-text">
+                                    <p class="big-text">149,529</p>
+                                    <p class="small-text">24h<br>users</p>
+                                </div>
+                            </div>
+                            <div class="circle-block">
+                                <div class="circle-text">
+                                    <p class="big-text">$34M</p>
+                                    <p class="small-text">24h<br>volume</p>
+                                </div>
+                            </div>
+                            <div class="circle-block">
+                                <div class="circle-text">
+                                    <p class="big-text">7,902</p>
+                                    <p class="small-text">smart<br>contracts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bootom-line">
+            <div class="container">
+                <p>© 2019 DappDetect.com "UAB"</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
