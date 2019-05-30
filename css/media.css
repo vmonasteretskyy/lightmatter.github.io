@@ -1,0 +1,1257 @@
+@media(max-width:1259.8px) {
+    .header__nav-section .header-subbmit {
+        height: 34px;
+    }
+
+    .header__search input[type="text"] {
+        height: 34px;
+    }
+
+    .header__search input[type="text"]::-webkit-input-placeholder {
+        font-size: 9px;
+    }
+
+    .header__search input[type="text"]::-moz-placeholder {
+        font-size: 9px;
+    }
+
+    .header__search input[type="text"]:-ms-input-placeholder {
+        font-size: 9px;
+    }
+
+    .header__search input[type="text"]:-moz-placeholder {
+        font-size: 9px;
+    }
+
+    .header__menu ul li a {
+        font-size: 12px;
+    }
+
+    .header__search {
+        flex: 0 0 110px;
+    }
+
+    .header__menu ul {
+        margin: 0 10px;
+    }
+
+    .header-language>span {
+        font-size: 14px;
+        height: 34px;
+        display: inline-block;
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    .header-language>span img {
+        margin-right: 3px;
+        width: 15px;
+        margin-top: -3px;
+    }
+
+    .header-language>span:after {
+        bottom: 5px;
+    }
+
+    .header__menu ul li {
+        line-height: 20px;
+    }
+
+    .header-language {
+        flex: 0 0 60px;
+    }
+
+    .main-page-titles {
+        padding-top: 120px;
+    }
+
+    .main-page-titles h1 {
+        margin-top: 0;
+    }
+
+    .feat-depp .pic-block {
+        height: 130px;
+    }
+
+    .feat-depp .bott-block span {
+        font-size: 12px;
+    }
+
+    .feat-depp .bott-block {
+        padding: 0 12px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .main-page-titles p {
+        font-size: 16px;
+    }
+
+    .main-top-bg {
+        height: 525px;
+    }
+
+    .header-language .lang-list {
+        top: 35px;
+    }
+
+    .header-language .lang-list li a {
+        font-size: 14px;
+    }
+
+    .depps-section .depp-block .pic-block {
+        margin-bottom: 7px;
+    }
+
+    .depps-section .depp-block p.title {
+        margin-bottom: 5px;
+    }
+
+    .depps-section .title-depp-block,
+    .depps-section .depp-block {
+        height: 140px;
+    }
+
+    .depps-section .title-depp-block a {
+        height: 30px;
+    }
+
+    .daps-table-topline a {
+        padding: 11px 12px;
+    }
+
+    .dapps-table .table-category {
+        width: 100px;
+    }
+
+    .dapps-table tbody .name {
+        font-size: 14px;
+    }
+
+    .top-dapps-table .dapps-table tbody td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .check-rank-block {
+        padding: 25px 35px 25px 60px;
+    }
+
+    .top-games-section .depps-section .depp-block {
+        padding: 0 3px;
+    }
+
+    .top-games-section .depps-section .depp-block p.title {
+        font-size: 14px;
+    }
+
+    .top-games-section .depps-section .row {
+        margin-bottom: 30px;
+    }
+
+    .adv-section {
+        padding: 40px 0;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+
+    .subscribe-section .title,
+    .subscribe-section .descr {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-section .descr {
+        font-size: 16px;
+    }
+
+    .subscribe-section form {
+        margin-bottom: 60px;
+    }
+
+    .footer-lists ul li:first-child {
+        font-size: 16px;
+    }
+
+    .footer-lists ul li a {
+        font-size: 14px;
+    }
+
+    footer .foot-left-sect .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .foot-circle-section .circle-block {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle-block .circle-text .big-text {
+        font-size: 22px;
+    }
+
+    .circle-block .circle-text .small-text {
+        font-size: 12px;
+    }
+
+    .subscribe-section form input[type="text"],
+    .subscribe-section form input[type="submit"] {
+        height: 43px;
+    }
+
+    footer .foot-bootom-line p {
+        font-size: 14px;
+    }
+
+    /* ranking page */
+    .ranking-sort .col-lg-2 {
+        -ms-flex: 0 0 205px;
+        flex: 0 0 205px;
+        max-width: 205px;
+    }
+
+    .ranking-sort .col-lg-3 {
+        -ms-flex: 0 0 205px;
+        flex: 0 0 205px;
+        max-width: 205px;
+    }
+
+    .ranking-sort .col-lg-7 {
+        flex-grow: 1;
+        max-width: calc(100% - 410px);
+    }
+
+    .dapps-table.ranking-page.fixed thead {
+        max-width: 930px;
+    }
+
+    /* EDIT DAPP */
+    #edit-dapp {
+        padding: 30px 80px;
+    }
+
+    #edit-dapp .inp-field label,
+    .general-form .inp-field label {
+        margin-bottom: 10px;
+    }
+
+    #edit-dapp .inp-field input,
+    #edit-dapp .jq-selectbox__select,
+    .general-form .inp-field input,
+    .general-form .jq-selectbox__select {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    #edit-dapp .inp-field,
+    .general-form .inp-field {
+        margin-bottom: 20px;
+    }
+
+    #edit-dapp .jq-selectbox__select,
+    .general-form .jq-selectbox__select {
+        line-height: 42px;
+    }
+
+    #edit-dapp .jq-selectbox__trigger-arrow,
+    #edit-dapp .jq-selectbox:hover .jq-selectbox__trigger-arrow,
+    .general-form .jq-selectbox__trigger-arrow,
+    .general-form .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+        top: 19px;
+    }
+
+    #edit-dapp .choose-line p,
+    .general-form .choose-line p {
+        font-size: 14px;
+    }
+
+    .text-content,
+    .post-content {
+        padding: 30px 80px;
+    }
+
+    /* BLOG */
+    .blog-filter {
+        margin-bottom: 30px;
+    }
+
+    .post-block .pic-block {
+        height: 255px;
+    }
+
+    .post-block .rewbtn,
+    .post-block .date {
+        margin-bottom: 10px;
+    }
+
+    .dis-fblock,
+    .dis-sblock,
+    .dis-picblock {
+        height: 180px;
+    }
+
+    .dis-sblock ul li {
+        margin-bottom: 8px;
+    }
+
+    .dis-sblock ul li:first-child {
+        margin-bottom: 15px;
+    }
+
+    .dapp-inf-sect2 .title {
+        margin-bottom: 10px;
+    }
+
+    .smart-contracts .card-line .left-block p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .smart-contracts .card-line {
+        margin-bottom: 10px;
+    }
+
+    .dis-sblock ul li a {
+        width: 80px;
+        display: inline-block;
+    }
+
+    .userfull-links ul li {
+        margin-bottom: 5px;
+    }
+
+    .info-block>a {
+        height: 192px;
+    }
+
+    .dapp-inf-sect3 .dapp-socbott-sect {
+        height: 400px;
+    }
+
+}
+
+@media(max-width:991.8px) {
+
+    .feat-depp .pic-block {
+        height: 180px;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        display: none;
+    }
+
+    .burger-icon {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        /* position: fixed; */
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        background-color: rgba(59, 129, 201, .95);
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .header__top-line span {
+        font-size: 10px;
+    }
+
+    .header__menu ul,
+    .header__menu ul li {
+        display: block;
+    }
+
+    .header__menu ul li a {
+        font-size: 28px;
+    }
+
+    .header__menu ul li {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .close-menu {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .main-page-titles {
+        padding-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .feat-depp {
+        margin-bottom: 30px;
+    }
+
+    .featured-dapps-section {
+        margin-bottom: 30px;
+    }
+
+    .depps-section .title-depp-block,
+    .depps-section .depp-block {
+        margin-bottom: 30px;
+    }
+
+    .dapps-table tbody .name img {
+        width: 25px;
+    }
+
+    .dapps-table .activity {
+        width: 14%;
+    }
+
+    .top-dapps-table .dapps-table tbody td {
+        font-size: 14px;
+    }
+
+    .top-dapps-table .dapps-table tbody td {
+        font-size: 12px;
+    }
+
+    .header__search,
+    .header-language,
+    .header__menu {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 20px;
+    }
+
+    .header__search input[type="text"]::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+
+    .header__search input[type="text"]::-moz-placeholder {
+        font-size: 14px;
+    }
+
+    .header__search input[type="text"]:-ms-input-placeholder {
+        font-size: 14px;
+    }
+
+    .header__search input[type="text"]:-moz-placeholder {
+        font-size: 14px;
+    }
+
+    .header__search input[type="text"] {
+        height: 54px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .header__menu ul {
+        margin: 0;
+    }
+
+    .header-language>span,
+    .header-language .lang-list li a {
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    .header-language .lang-list {
+        background-color: transparent;
+    }
+
+    .header-language>span:after {
+        bottom: -5px;
+    }
+
+    .header-language>span img,
+    .header-language .lang-list li a span img {
+        width: 25px;
+    }
+
+    .header-language .lang-list {
+        display: block;
+    }
+
+    .header-language>span {
+        display: none;
+    }
+
+    .header-language .lang-list li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 10px;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        overflow: scroll;
+    }
+
+    /* fix */
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        overflow: initial;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        top: 115px;
+        background-color: rgba(59, 129, 201, 1);
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .header__nav-section .header-subbmit {
+        display: none;
+    }
+
+    .close-menu {
+        position: relative;
+        top: initial;
+        right: initial;
+        width: 28px;
+        padding: 2px 0;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        display: block;
+        padding: 20px 15px;
+    }
+
+    .header-language .lang-list {
+        position: relative;
+        top: initial;
+    }
+
+    .header__menu .header-subbmit {
+        display: block;
+    }
+
+    .header__search input[type="text"] {
+        width: 150px;
+        float: left;
+        height: 45px;
+    }
+
+    .header__menu .header-subbmit {
+        width: 160px;
+        padding: 7px 0;
+        height: 40px;
+    }
+
+    .header__menu ul li.menu-eth a:before {
+        background-position: center center;
+    }
+
+    .header__menu ul li a:before {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .center-protocolblock {
+        width: auto;
+    }
+
+    .ranking-sort label {
+        margin-bottom: 10px;
+    }
+
+    .dapps-table thead tr th {
+        font-size: 12px;
+    }
+
+    .dapps-table.ranking-page .table-category {
+        width: 100%;
+    }
+
+    .dapps-table.ranking-page.fixed thead {
+        max-width: 690px;
+    }
+
+    /* EDIT DAPP */
+    #edit-dapp .choose-line p,
+    .general-form .choose-line p {
+        word-break: break-all;
+    }
+
+    #edit-dapp .inp-field label.screen-choose,
+    .general-form .inp-field label.screen-choose {
+        margin-bottom: 20px;
+    }
+
+    #edit-dapp .add-links .inp-field,
+    .general-form .add-links .inp-field {
+        margin-bottom: 0;
+    }
+
+    #edit-dapp .add-links .inp-field input,
+    .general-form .add-links .inp-field input {
+        margin-bottom: 20px;
+    }
+
+    .inp-field.logos .row .col-lg-6.col-md-6:first-child {
+        margin-bottom: 20px;
+    }
+
+    #edit-dapp {
+        padding: 30px 40px;
+    }
+
+    .text-content,
+    .post-content {
+        padding: 30px 40px;
+    }
+
+    /* BLOG */
+    .main-top-bg.edit-dapp {
+        height: 300px;
+    }
+
+    .post-block .pic-block {
+        height: 200px;
+    }
+
+    .blog-filter ul li {
+        margin-right: 5px;
+    }
+
+    .general-block-container .row.blog-posts .col-md-6:nth-child(odd) .post-block {
+        padding-right: 0;
+    }
+
+    .general-block-container .row.blog-posts .col-md-6:nth-child(even) .post-block {
+        padding-left: 0;
+    }
+
+    .post-block .title {
+        font-size: 18px;
+        height: 49px;
+    }
+
+    .post-block {
+        margin-bottom: 30px;
+    }
+
+    .cont-out-team {
+        margin-bottom: 30px;
+    }
+
+    .disclaimer-container {
+        padding: 35px 50px;
+    }
+
+    .fq-dropdown-sect .title {
+        height: 75px;
+    }
+
+    .simplebar-track.simplebar-vertical {
+        right: 15px;
+    }
+
+    #edit-dapp .check-block p {
+        width: calc(100% - 70px);
+    }
+
+    #edit-dapp .select-protocol .sp-btn {
+        margin-right: 10px;
+    }
+
+    .dis-fblock,
+    .dis-sblock,
+    .smart-contracts {
+        margin-bottom: 30px;
+    }
+
+    .smart-contracts .card-line .left-block p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .info-block>a img {
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .dapp-inf-sect3 .dapp-socbott-sect {
+        height: 300px;
+    }
+
+    .dapp-inf-sect3 .dapp-socbott-sect {
+        padding: 10px;
+    }
+
+    .dapp-inf-sect3 .dapp-bottblock {
+        height: 45px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .dapps-table.ranking-page.fixed {
+        display: none !important;
+    }
+
+    .check-rank-block .left-text {
+        margin-bottom: 15px;
+    }
+
+    .check-rank-block .left-text p:first-child {
+        margin-bottom: 10px;
+    }
+
+    .check-rank-block .left-text {
+        flex-grow: initial;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .check-rank-block {
+        padding: 25px;
+    }
+
+    .feat-depp .bott-block span,
+    .feat-depp .pic-block .depp-status {
+        font-size: 14px;
+    }
+
+    .feat-depp .pic-block {
+        height: 280px;
+    }
+
+    .dapps-table,
+    .dapps-table tbody,
+    .dapps-table tr,
+    .dapps-table td,
+    .dapps-table tbody .name>div {
+        display: block;
+    }
+
+    .dapps-table tr {
+        padding: 20px;
+    }
+
+    .dapps-table td {
+        width: 100% !important;
+    }
+
+    .dapps-table tbody tr {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .table-phone-show,
+    .dapps-table tbody .volume span.table-phone-show,
+    .dapps-table tbody .users span.table-phone-show {
+        display: inline-block;
+        border: none;
+        position: absolute;
+        left: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #575b73;
+    }
+
+    .dapps-table tbody .name>div>span {
+        text-align: center;
+        display: block;
+    }
+
+    .dapps-table .table-category {
+        display: flex;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .top-dapps-table .dapps-table tbody td {
+        text-align: right;
+        position: relative;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .top-dapps-table .dapps-table tbody tr td:first-child {
+        text-align: center;
+    }
+
+    .top-dapps-table .dapps-table tbody tr td:first-child .table-phone-show {
+        position: relative;
+    }
+
+    .top-dapps-table .dapps-table tbody td {
+        font-size: 16px;
+    }
+
+    .dapps-table thead {
+        display: none;
+    }
+
+    .header__nav-section .container {
+        position: relative;
+    }
+
+    .burger-icon {
+        position: absolute;
+        right: 15px;
+    }
+
+    /* fix */
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        top: 110px;
+    }
+
+    .header__nav-section .container {
+        position: initial;
+    }
+
+    .burger-icon {
+        position: relative;
+        right: initial;
+    }
+
+    .header__nav-section .col-lg-2.col-md-4.col-4 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    /* RANKING PAGE */
+    .ranking-sort .col-lg-2,
+    .ranking-sort .col-lg-7,
+    .ranking-sort .col-lg-3 {
+        flex-grow: initial;
+        max-width: 100%;
+        -ms-flex: initial;
+        flex: initial;
+        max-width: initial;
+    }
+
+    .ranking-sort {
+        margin-top: 25px;
+    }
+
+    .main-top-bg.rat-page {
+        height: 488px;
+    }
+
+    .dapps-table.ranking-page .balance {
+        text-align: right;
+    }
+
+    .dapps-table.ranking-page .table-category {
+        width: 100px;
+    }
+
+    .dapps-nav .row .col-lg-2.col-md-3.col-6 {
+        order: 1;
+    }
+
+    .dapps-nav .row .col-lg-8.col-md-6.col-12 {
+        order: 3;
+    }
+
+    .dapps-nav .row .col-lg-2.col-md-3.col-6 {
+        order: 2;
+    }
+
+    .dapps-nav .prev,
+    .dapps-nav .next {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .dapps-nav {
+        margin-bottom: 30px;
+    }
+
+    /* blog */
+    .post-block .pic-block {
+        height: auto;
+    }
+
+    .disclaimer-container p.dc-title {
+        font-size: 22px;
+    }
+
+    .disclaimer-container p {
+        font-size: 16px;
+    }
+
+    #edit-dapp .select-protocol .sp-btn {
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+
+    #edit-dapp .inp-field.select-protocol {
+        margin-bottom: 10px;
+    }
+
+    .dapp-head {
+        padding-left: 0;
+    }
+
+    .dapp-head .dh-pic {
+        width: 90px;
+    }
+
+    .dapp-head .dh-pic img {
+        width: 100%;
+    }
+
+    .dh-descr .dh-title span {
+        font-size: 18px;
+    }
+
+    .dis-fblock {
+        height: 100px;
+    }
+
+    .dapp-page-ban,
+    .userfull-links {
+        margin-bottom: 20px;
+    }
+
+    .dis-fblock,
+    .dis-sblock,
+    .smart-contracts,
+    .dis-picblock {
+        margin-bottom: 20px;
+    }
+
+    .dis-fblock,
+    .dis-sblock,
+    .dis-picblock.activity, .smart-contracts, .userfull-links, .info-block {
+        height: auto;
+    }
+
+    .dapp-inf-sect3 .dapp-socbott-sect {
+        height: auto;
+        min-height: 150px;
+    }
+
+    .dapp-inf-sect3 .dapp-bottblock span {
+        font-size: 14px;
+    }
+
+    .dapp-inf-sect3 .dapp-bottblock a {
+        width: 140px;
+    }
+
+
+}
+
+@media(max-width: 575.8px) {
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        max-width: 80%;
+    }
+
+    .close-menu {
+        width: 20px;
+    }
+
+    .header__top-line {
+        display: none;
+    }
+
+    .header__search input[type="text"] {
+        height: 40px;
+    }
+
+    .header__search input[type="text"]::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+
+    .header__search input[type="text"]::-moz-placeholder {
+        font-size: 12px;
+    }
+
+    .header__search input[type="text"]:-ms-input-placeholder {
+        font-size: 12px;
+    }
+
+    .header__search input[type="text"]:-moz-placeholder {
+        font-size: 12px;
+    }
+
+    .header__menu ul li a {
+        font-size: 20px;
+    }
+
+    .header__menu ul li {
+        margin-bottom: 15px;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        display: block;
+        padding-top: 18vh;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .feat-depp .pic-block {
+        height: auto;
+    }
+
+    .feat-depp .pic-block img {
+        object-fit: initial;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .feat-depp {
+        margin-bottom: 20px;
+    }
+
+    .feat-depp .pic-block a {
+        display: block;
+    }
+
+    .depps-section .title-depp-block,
+    .depps-section .depp-block {
+        margin-bottom: 20px;
+    }
+
+    .depps-section {
+        margin-bottom: 30px;
+    }
+
+    .check-rank-block {
+        margin-bottom: 50px;
+    }
+
+    .foot-circle-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .foot-bott-sect {
+        padding-bottom: 50px;
+    }
+
+    .foot-circle-section .circle-block {
+        margin: 10px;
+    }
+
+    /* fix */
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        padding-top: 20px;
+        max-width: 100%;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        top: 50px;
+    }
+
+    .header__menu ul li {
+        margin-bottom: 25px;
+    }
+
+    .main-page-titles h1 {
+        max-width: 265px;
+        margin: 0 auto 15px;
+        line-height: 40px;
+    }
+
+    .main-page-titles p {
+        line-height: 28px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .header__nav-section .col-lg-2.col-md-4.col-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .burger-icon {
+        height: 32px;
+    }
+
+    .close-menu {
+        margin-left: 4px;
+    }
+
+    /* ranking page */
+    .burger-icon {
+        position: absolute;
+        right: 15px;
+    }
+
+    #edit-dapp {
+        position: relative;
+    }
+
+    #edit-dapp {
+        padding: 20px 20px;
+    }
+
+    .screenshots-sect {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .text-content,
+    .post-content {
+        padding: 20px;
+    }
+
+    .main-top-bg.edit-dapp,
+    .main-top-bg.edit-dapp {
+        height: 260px;
+    }
+
+    /* blog */
+    .dapps-nav {
+        margin-bottom: 0;
+    }
+
+    .dapps-nav ul li {
+        margin-bottom: 10px;
+    }
+
+    /* contacts */
+    .cont-out-team,
+    .cont-form {
+        padding: 20px;
+    }
+
+    .general-form textarea {
+        height: 200px;
+    }
+
+    .cont-out-team .title {
+        margin-bottom: 15px;
+    }
+
+    .disclaimer-container {
+        padding: 20px;
+    }
+
+    .simplebar-track.simplebar-vertical {
+        right: 0;
+    }
+
+    .privacy-container.text-content ol {
+        padding-left: 30px;
+    }
+
+    .privacy-container.text-content ol li ul {
+        padding-left: 25px;
+    }
+
+    .simplebar-offset {
+        padding: 20px 0 !important;
+    }
+
+    .privacy-container.text-content p,
+    .privacy-container.text-content li {
+        font-size: 15px;
+    }
+
+    .privacy-container.terms.text-content ol {
+        padding-left: 30px;
+    }
+    .dh-descr {
+        padding-left: 10px;
+    }
+    .dh-descr .dh-title {
+        margin-bottom: 0;
+    }
+
+    .dh-descr .dh-title .inf-btn {
+        margin-bottom: 10px;
+    }
+    .dapp-head .dh-pic {
+        width: 100%;
+        text-align: center;
+    }
+    .dapp-head .dh-pic img {
+        width: 80px;
+    }
+    .dh-descr {
+        width: 100%;
+        text-align: center;
+    }
+    .main-top-bg.dapp-page {
+        height: 450px;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .main-top-bg.rat-page {
+        height: 530px;
+    }
+
+    .fq-arrowblock {
+        width: 45px;
+    }
+
+    .fq-textblock {
+        width: calc(100% - 20px);
+        padding-left: 60px;
+    }
+
+    .fq-dropdown-sect .title {
+        font-size: 16px;
+    }
+    .dh-descr .dh-title span {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(max-width:360.8px) {
+    .dh-descr .ddh-soc li {
+        margin-right: 5px;
+    }
+    .foot-circle-section .circle-block {
+        margin: 10px 5px;
+    }
+
+    .dapps-table tbody .activity img {
+        max-width: 120px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:900px) and (max-height:550px) {
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        overflow: scroll;
+    }
+
+    .header__nav-section .col-lg-8.col-md-5.col-5>div {
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+}
+
+@media(min-width:992px) {
+    .header__nav-section .col-lg-8.col-md-5.col-5 {
+        display: block !important;
+    }
+}
